@@ -6,7 +6,7 @@ Unity version 2017.2.0f3
 ## Training Day Phases
 
 - [x] 01. Scene Setup
-- [ ] 02. Tank Creation & Control
+- [x] 02. Tank Creation & Control
 - [ ] 03. Camera Control
 - [ ] 04. Tank Health
 - [ ] 05. Shell Creation
