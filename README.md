@@ -8,7 +8,7 @@ Unity version 2017.2.0f3
 - [x] 01. Scene Setup
 - [x] 02. Tank Creation & Control
 - [x] 03. Camera Control
-- [ ] 04. Tank Health
+- [x] 04. Tank Health
 - [ ] 05. Shell Creation
 - [ ] 06. Firing Shells
 - [ ] 07. Game Managers
