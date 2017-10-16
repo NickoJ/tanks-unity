@@ -2,6 +2,7 @@
 Tanks tutorial from https://unity3d.com/learn/tutorials/projects/tanks-tutorial
 
 Unity version 2017.2.0f3
+Scription Runtime Version: .NET 4.6
 
 ## Training Day Phases
 
@@ -11,5 +12,5 @@ Unity version 2017.2.0f3
 - [x] 04. Tank Health
 - [x] 05. Shell Creation
 - [x] 06. Firing Shells
-- [ ] 07. Game Managers
+- [x] 07. Game Managers
 - [ ] 08. Audio Mixing
