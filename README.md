@@ -22,7 +22,7 @@ Scripting Runtime Version: .NET 4.6
 ### Phases
 
 - [x] 01. Intro and Session Goals
-- [ ] 02. Finite State AI with the Delegate Pattern
+- [x] 02. Finite State AI with the Delegate Pattern
 - [ ] 03. Action and State Base Classes
 - [ ] 04. Patrol Action
 - [ ] 05. Decisions and Looking
