@@ -212,7 +212,7 @@ namespace UnityEditor.PostProcessing
             DoGUIFor("Grading Curves", DoCurvesGUI);
         }
 
-        void DoGUIFor(string title, Action func)
+        void DoGUIFor(string title, System.Action func)
         {
             EditorGUILayout.LabelField(title, EditorStyles.boldLabel);
             EditorGUI.indentLevel++;

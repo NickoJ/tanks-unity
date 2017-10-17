@@ -41,7 +41,7 @@ namespace UnityEditor.PostProcessing
 
         #endregion
 
-        public static bool Header(string title, SerializedProperty group, Action resetAction)
+        public static bool Header(string title, SerializedProperty group, System.Action resetAction)
         {
             var rect = GUILayoutUtility.GetRect(16f, 22f, FxStyles.header);
             GUI.Box(rect, title, FxStyles.header);
@@ -87,7 +87,7 @@ namespace UnityEditor.PostProcessing
             return display;
         }
 
-        public static bool Header(string title, SerializedProperty group, SerializedProperty enabledField, Action resetAction)
+        public static bool Header(string title, SerializedProperty group, SerializedProperty enabledField, System.Action resetAction)
         {
             var field = ReflectionUtils.GetFieldInfoFromPath(enabledField.serializedObject.targetObject, enabledField.propertyPath);
             object parent = null;
