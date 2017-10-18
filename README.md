@@ -26,7 +26,7 @@ Scripting Runtime Version: .NET 4.6
 - [x] 03. Action and State Base Classes
 - [x] 04. Patrol Action
 - [x] 05. Decisions and Looking
-- [ ] 06. Transitions Between States
+- [x] 06. Transitions Between States
 - [ ] 07. Chasing Until Target Is Dead
 - [ ] 08. Attack Action
 - [ ] 09. Scan Decision
