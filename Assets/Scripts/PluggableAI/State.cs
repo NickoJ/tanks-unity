@@ -5,14 +5,11 @@ public class State : ScriptableObject
 {
 
 	public Action[] actions;
-
-    private Color sceneGizmoColor = Color.grey;
-
-	public Color SceneGizmoColor { get { return sceneGizmoColor; } }
+	public Color sceneGizmoColor = Color.grey;
 
     public void UpdateState(StateController controller)
 	{
-
+		DoActions(controller);
 	}
 
 	private void DoActions(StateController controller)

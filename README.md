@@ -24,7 +24,7 @@ Scripting Runtime Version: .NET 4.6
 - [x] 01. Intro and Session Goals
 - [x] 02. Finite State AI with the Delegate Pattern
 - [x] 03. Action and State Base Classes
-- [ ] 04. Patrol Action
+- [x] 04. Patrol Action
 - [ ] 05. Decisions and Looking
 - [ ] 06. Transitions Between States
 - [ ] 07. Chasing Until Target Is Dead

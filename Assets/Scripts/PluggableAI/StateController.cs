@@ -9,10 +9,10 @@ public class StateController : MonoBehaviour {
 	public EnemyStats enemyStats;
 	public Transform eyes;
 
-
 	[HideInInspector] public NavMeshAgent navMeshAgent;
 	[HideInInspector] public TankShooting tankShooting;
 	[HideInInspector] public List<Transform> wayPointList;
+	[HideInInspector] public int nextWayPoint;
 
 	private bool aiActive;
 
@@ -47,7 +47,7 @@ public class StateController : MonoBehaviour {
 	{
 		if (currentState != null && eyes != null)
 		{
-			Gizmos.color = currentState.SceneGizmoColor;
+			Gizmos.color = currentState.sceneGizmoColor;
 			Gizmos.DrawWireSphere(eyes.position, enemyStats.lookSphereCastRadius);
 		}
 	}
