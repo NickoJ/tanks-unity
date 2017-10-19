@@ -22,7 +22,7 @@ public class LookDecision : Decision
 
         if (Physics.SphereCast(position, radius, direction, out hit, lookRange) && hit.collider.CompareTag("Player"))
         {
-			controller.chaseController = hit.transform;
+			controller.chaseTarget = hit.transform;
 			return true;
         }
 		else

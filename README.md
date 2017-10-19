@@ -27,7 +27,7 @@ Scripting Runtime Version: .NET 4.6
 - [x] 04. Patrol Action
 - [x] 05. Decisions and Looking
 - [x] 06. Transitions Between States
-- [ ] 07. Chasing Until Target Is Dead
+- [x] 07. Chasing Until Target Is Dead
 - [ ] 08. Attack Action
 - [ ] 09. Scan Decision
 - [ ] 10. Questions and Answers
