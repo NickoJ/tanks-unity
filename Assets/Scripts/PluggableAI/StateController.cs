@@ -15,6 +15,7 @@ public class StateController : MonoBehaviour {
 	[HideInInspector] public List<Transform> wayPointList;
 	[HideInInspector] public int nextWayPoint;
 	[HideInInspector] public Transform chaseTarget;
+	[HideInInspector] public float stateTimeElapsed;
 
 	private bool aiActive;
 
@@ -40,7 +41,15 @@ public class StateController : MonoBehaviour {
 
 	public void TransitionToState(State nextState)
 	{
-		if (nextState != remainState) currentState = nextState;
+		if (nextState == remainState) return;
+		currentState = nextState;
+		OnExitState();
+	}
+
+	public bool CheckIfCountDownElapsed(float duration)
+	{
+		stateTimeElapsed += Time.deltaTime;
+		return stateTimeElapsed >= duration;
 	}
 
 	void Update()
@@ -48,6 +57,11 @@ public class StateController : MonoBehaviour {
 		if (!aiActive) return;
 
 		currentState.UpdateState(this);
+	}
+
+	void OnExitState()
+	{
+		stateTimeElapsed = 0;
 	}
 
 	void OnDrawGizmos()

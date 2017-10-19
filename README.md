@@ -28,7 +28,7 @@ Scripting Runtime Version: .NET 4.6
 - [x] 05. Decisions and Looking
 - [x] 06. Transitions Between States
 - [x] 07. Chasing Until Target Is Dead
-- [ ] 08. Attack Action
+- [x] 08. Attack Action
 - [ ] 09. Scan Decision
 - [ ] 10. Questions and Answers
 
