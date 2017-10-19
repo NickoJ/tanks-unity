@@ -30,7 +30,6 @@ Scripting Runtime Version: .NET 4.6
 - [x] 07. Chasing Until Target Is Dead
 - [x] 08. Attack Action
 - [x] 09. Scan Decision
-- [ ] 10. Questions and Answers
 
 ## Live Training Session: Creating A Minimap System https://unity3d.com/learn/tutorials/topics/graphics/introduction-and-goals-0?playlist=17102
 
