@@ -36,7 +36,7 @@ Scripting Runtime Version: .NET 4.6
 ### Phases
 
 - [x] 01. Introduction and Goals
-- [ ] 02. Adding a Second Camera
+- [x] 02. Adding a Second Camera
 - [ ] 03. Adding Minimap Icons
 - [ ] 04. Render Textures and UI
 - [ ] 05. Adding A UI Mask and Border Image
