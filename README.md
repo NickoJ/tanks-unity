@@ -39,4 +39,4 @@ Scripting Runtime Version: .NET 4.6
 - [x] 02. Adding a Second Camera
 - [x] 03. Adding Minimap Icons
 - [x] 04. Render Textures and UI
-- [ ] 05. Adding A UI Mask and Border Image
+- [x] 05. Adding A UI Mask and Border Image
