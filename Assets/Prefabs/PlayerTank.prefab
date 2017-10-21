@@ -512,7 +512,7 @@ Camera:
     serializedVersion: 2
     m_Bits: 3072
   m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
+  m_TargetTexture: {fileID: 8400000, guid: bbe5695ae717a0c429e5d28dd5e70ece, type: 2}
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 1
@@ -1276,7 +1276,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: 194637009
+  randomSeed: 1129911267
   InitialModule:
     serializedVersion: 3
     enabled: 1
